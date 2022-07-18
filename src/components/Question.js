@@ -10,7 +10,7 @@ function Question({ question, onAnswered }) {
       return; 
     }
 
-   
+    
     const timerId = setTimeout(() => {
       
       setTimeRemaining((timeRemaining) => timeRemaining - 1);
